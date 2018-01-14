@@ -21,10 +21,10 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Amqp 1.0")]
+
 [assembly: AssemblyDescription("AMQP 1.0 .Net Library")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyProduct("Amqp")]
+
+
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

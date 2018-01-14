@@ -312,7 +312,7 @@ namespace Amqp
         }
 #endif
 
-#if NETFX || DOTNET
+#if NETFX || DOTNET || NETSTANDARD2_0
         internal static async Task<System.Net.IPAddress[]> GetHostAddressesAsync(string host)
         {
             return await System.Net.Dns.GetHostAddressesAsync(host).ConfigureAwait(false);
